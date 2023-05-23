@@ -1,4 +1,4 @@
-PROMPT=$'%{$fg_bold[white]%}%{${FG[104]%}%~ %{$reset_color%}%{$FG[247]%}@%m %{$reset_color%}$(git_prompt_info)\
+PROMPT=$'%{$fg_bold[white]%}%{${FG[104]%}%~ %{$reset_color%}[%m] %{$reset_color%}$(git_prompt_info)\
 %(?:%{$fg_bold[green]%}➜ :%{$fg_bold[red]%}➜ )%{$reset_color%}%#%{$reset_color%} '
 
 
