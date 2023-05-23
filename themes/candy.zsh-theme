@@ -1,5 +1,6 @@
-PROMPT=$'%{$fg_bold[white]%}%{$(tput setaf 104)%}%n@%m %{$reset_color%}%{$fg[white]%}%~%{$reset_color%} $(git_prompt_info)\
+PROMPT=$'%{$fg_bold[white]%}%{${FG[104]%}%~ %{$reset_color%}%{$FG[247]%}@%m %{$reset_color%}$(git_prompt_info)\
 %(?:%{$fg_bold[green]%}➜ :%{$fg_bold[red]%}➜ )%{$reset_color%}%#%{$reset_color%} '
+
 
 ZSH_THEME_GIT_PROMPT_PREFIX="%{$fg_bold[blue]%}git:(%{$fg[red]%}"
 ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%} "
