@@ -1,5 +1,6 @@
-PS1=$'%{$fg_bold[white]%}%{${FG[104]}%}%~ %{$reset_color%}$(git_prompt_info)%{$reset_color%}%{${FG[243]}%}[%m]\
+PS1=$'%{$fg_bold[white]%}%{${FG[104]}%}%~ %{$reset_color%}$(git_prompt_info)\
 %(?:%{$fg_bold[green]%}➜ :%{$fg_bold[red]%}➜ )%{$reset_color%}%# '
+RPS1='%F{246}[%m]'
 
 
 ZSH_THEME_GIT_PROMPT_PREFIX="%{$fg_bold[blue]%}git:(%{$fg[red]%}"
