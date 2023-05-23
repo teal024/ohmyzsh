@@ -1,5 +1,5 @@
-PROMPT=$'%{$fg_bold[white]%}%{${FG[104]%}%~ %{$reset_color%}[%m] %{$reset_color%}$(git_prompt_info)\
-%(?:%{$fg_bold[green]%}➜ :%{$fg_bold[red]%}➜ )%{$reset_color%}%#%{$reset_color%} '
+PS1=$'%{$fg_bold[white]%}%{${FG[104]}%}%~ %{$reset_color%}$(git_prompt_info)%{$reset_color%}%{${FG[243]}%}[%m]\
+%(?:%{$fg_bold[green]%}➜ :%{$fg_bold[red]%}➜ )%{$reset_color%}%# '
 
 
 ZSH_THEME_GIT_PROMPT_PREFIX="%{$fg_bold[blue]%}git:(%{$fg[red]%}"
